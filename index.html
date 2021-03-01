@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="style/slick-theme.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Information about me</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body class="">
+	<section class="about">
+		<div class = "container">
+			<div class="about__inner">
+				<div class="about__photo">
+					<img class="images" src="style/images/manga1.png">
+				</div>
+				<div class="about__content">
+					<h3 class="title">Немного обо мне</h3>
+					<h2 class="title2">Фото нет, но есть картинка</h2>
+					<div class="text">
+						<p>Доброго времени суток, это Эмиль Асанов. Данный сайт разработан с целью немного рассказать о себе. Но я человек заурядный, так что достать хоть какой нибудь контент для работы будет тяжело, ну что ж, попробуем.</p>
+						<p>Эмиль Асанов Раильевич, 01.06.2002 года рождения. Молодой парень, который надеется чего то добиться в IT-индустрии.</p>
+						<div class="link__vk">
+							<p>Если хотите связаться со мной:</p>
+							<a href="https://vk.com/steml1" target="_blank"><img src="style/images/vk.svg" id="vk"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="town">
+		<div class="container"></div>
+			<div class="town__inner">
+				<div class="town__content">
+					<h3 class="title">Дом милый дом</h3>
+					<h2 class="title2">Астрахань</h2>
+					<div class="text">
+						<p>Прибыл я из города Астрахань - столицы Каспия(правда до Каспия переться и переться, но это другое). </p>
+						<p>Я правда люблю свой город, ведь я провел там 18 лет своей жизни все таки. Там я обзавелся своими лучшими друзьями, с которыми хотел бы провести чуть ли не всю свою жизнь.</p>
+					</div>
+				</div>
+				<div class="town__photo">
+					<div class="town__Slider">
+						<div class="townPhoto1">
+							<img class="images" src="style/images/astr1.png">
+						</div>
+						<div class="townPhoto1">
+							<img class="images" src="style/images/astr2.png">
+						</div>
+						<div class="townPhoto1">
+							<img class="images" src="style/images/astr3.png">
+						</div>
+					</div>
+					<div class="town__footer">
+						<button class="slider__footer" id="town__Previous">
+							<img src="style/images/previous.svg" height="11px">
+							Previous
+						</button>
+						<button class="slider__footer" id="town__Next">
+							Next
+							<img src="style/images/next.svg" height="11px">
+
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="cartoon">
+		<div class="container"></div>
+			<div class="cartoon__inner">
+				<div class="cartoon__photo">
+					<div class="mult__Slider">
+						<div>
+							<img class="images" src="style/images/klausMain.png">
+						</div>
+						<div>
+							<img class="images" src="style/images/bakumanMain.png">
+						</div>
+					</div>
+					<div class="mult__footer">
+						<button class="slider__footer" id="mult__Previous">
+							<img src="style/images/previous.svg" height="11px">
+							Previous
+						</button>
+						<button class="slider__footer" id="mult__Next">
+							Next
+							<img src="style/images/next.svg" height="11px">
+
+						</button>
+					</div>
+				</div>
+				<div class="cartoon__content">
+					<h3 class="title">Волшебство на экране</h3>
+					<h2 class="title2">Анимация</h2>
+					<div class="text">
+						<p>Анимация - одно из моих сильнейших увлечений. Я постоянно просматриваю различные анимационные проекты разных стран. Разбор сюжета, разбор анимации, цветов и рисовки - это то, что меня так сильно увлекает. </p>
+						<p>Сам я тоже пытаюсь развиваться в этой стезе: книги о написании сцениария, туториалы и статьи об уроках рисования и 3D анимации, спикинги различных мастеров - все это меня очень увлекает</p>
+					</div>
+					<div class="mult__button__Slider">
+							<div>
+								<button class="slider__footer" id="Klaus" data-modal="#mult__Klaus">
+									To learn more
+								</button>
+							</div>
+							<div>
+								<button class="slider__footer" id="Bakuman" data-modal="#mult__Bakuman">
+									To learn more
+								</button>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="modal" id="mult__Klaus">
+		<div class="modal__dialog">
+			<button class="modal__close" type="button" data-close>
+				<img src="style/images/cancel.svg">
+			</button>
+			<div class="modal__mult">
+				<div class="modal__mult__photo">
+					<div class="mult__photo1">
+						<img class="modal__mult__picture" src="style/images/klaus.png">
+					</div>
+				</div>
+				<div class="modal__mult__content">
+					<h3 class="modal__mult__title">Клаус</h3>
+					<div class="modal__mult__text">
+						<p>"Клаус" это испанский полнометражный анимационный фильм режиссёра Серхио Паблоса. Над мультфильмом работала студия SPA Studios при поддержке Aniventure, а дистрибьютором выступила компания Netflix.
+                    	</p>
+                    	<p>Первым, что хочется подчеркнуть в этом мультфильме – это потрясающая рисовка рисовка и анимация. Это действительно что новое, ведь здесь авторы использовали 2D графику, так называемую старую школу, с примесью современных технологий.
+                    	</p>
+                    	<p>Персонажи и сюжет просто великолепны. Рост главного героя идет постепенно: из ленивого, немного эгоистичного паренька, он перевоплощается в нового человека, он научился по настоящему наслаждаться жизнью, а не только роскошью. Это же касается и Клауса. Из отчужденного, мрачного, грубого мужчины  - в доброго, веселого человека, который так долго скрывал свою боль. Раскрытие тайны Клаусы, причина становления его жизни такой мрачной способна вызвать слезу у зрителя. Даже я попался на этот сюжетный поворот, хотя сразу понимал, к чему все идет. Именно поэтому я так обожаю этот мультфильм. Даже когда я раскрыл его тайну, чуть ли не при первой же встречи с ним, я все равно не смог сдержать слезу, даже прогадав сюжет я проникся историей, я по настоящему сопереживал им, как будто ничего и не подозревал об этом.
+                    	</p>
+
+						<p>Когда друзья посоветовали мне это произведения, я ничего не ожидал от него. Для меня он был обычным рождественским мультфильмом, с предсказуемым детским сюжетом. И я сильно ошибался, тот спектр эмоций, который вызвал у меня этот мультфильме навсегда закрепится в моей памяти и в моем сердце.</p>
+                    	
+                
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="mult__Bakuman">
+		<div class="modal__dialog">
+			<button class="modal__close" type="button" data-close>
+				<img src="style/images/cancel.svg">
+			</button>
+			<div class="modal__mult">
+				<div class="modal__mult__photo">
+					<div class="mult__photo1">
+						<img class="modal__mult__picture" src="style/images/bakuman.png">
+					</div>
+				</div>
+				<div class="modal__mult__content">
+					<h3 class="modal__mult__title">Бакуман</h3>
+					<div class="modal__mult__text">
+						<p>"Бакуман" произведение японский мультипликации от автора легендарного аниме "Тетрадь смерти".
+                    	</p>
+                    	<p>Лично для меня, "Бакуман" - это и вправду величайшее аниме. Сюжет повествует о двух школьниках, которые решили связать свою жизнь с написанием манги и добиться в этом высоких успехов.
+                    	Акито Такаги - отличник, которому уже осточертели ежедневная рутина и уже давно определённое будущее. Заметив талант к рисованию у своего одноклассника, Маритака Масиро, он предлагает, объединив усилия, приняться за работу над собственной мангой.
+                    	</p>
+                    	<p>Персонажи сталкиваются с огромным количесвом проблем: исскуство рисование манги, построение сюжета, реализации хорошеей идеи, конкуренции и тп. Но не смотря на множество неудач, на все проблемы, с которыми они сталкиваются, они продолжают трудиться, продолжают творить, чтобы достичь своей цели.
+                    	</p>
+
+						<p> Ты смотришь, сопереживаешь, смеешься и печалишься вместе с героями. Тебе хочется мечтать. Ты наполняешься чувством окрыленности и стремления творить. Словить это чувство, купаться в нем, ощутить прилив душевных сил и наполниться убеждением, что ты еще можешь мечтать и можешь воплощать свои мечты в жизнь. Уже за одно это чувство, я выражаю огромную благодарность авторам манги и создателям аниме.</p>
+                    	
+                
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="style/slick.min.js"></script>
+
+	<script src="style/js.js"></script>
+
+</body>
+</html>
